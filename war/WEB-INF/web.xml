@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Datagov.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.mycompany.sampleProject.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/datagov/greet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>jsonEPAData</servlet-name>
+    <servlet-class>com.mycompany.sampleProject.server.EPADataServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>jsonEPAData</servlet-name>
+    <url-pattern>/Maps/jsonEPAData</url-pattern>
+  </servlet-mapping>
+
+  
+
+</web-app>

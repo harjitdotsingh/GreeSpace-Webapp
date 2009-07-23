@@ -1,0 +1,115 @@
+/*nav filter*/
+.x-btn-pressed.filter-btn .x-btn-text {
+	background-image: url( 'images/funnel_X.gif' );
+}
+
+.filter-btn .x-btn-text {
+	background-image: url( 'images/funnel_plus.gif' );
+}
+
+.expand-all-btn .x-btn-text {
+	background-image: url( 'images/expandall.gif' );
+}
+
+.collapse-all-btn .x-btn-text {
+	background-image: url( 'images/collapseall.gif' );
+}
+
+.book-icon {
+	background-image: url( images/silk/book_open.gif ) !important;
+}
+
+.x-panel-body p {
+	margin: 10px;
+	line-height: 1.25;
+}
+
+.source-icon {
+	background-image: url( images/silk/script_edit.gif ) !important;
+}
+
+.java-icon {
+	background-image: url( images/silk/page_white_code.gif ) !important;
+}
+
+.css-icon {
+	background-image: url( images/silk/css.gif ) !important;
+}
+
+.html-icon {
+	background-image: url( images/silk/html.gif ) !important;
+}
+
+.xml-icon {
+	background-image: url( images/silk/script_gear.gif ) !important;
+}
+
+.json-icon {
+	background-image: url( images/silk/script_code.gif ) !important;
+}
+
+.map-icon {
+	background-image: url( images/silk/map.gif ) !important;
+}
+
+.world-icon {
+	background-image: url( images/silk/world.gif) !important;
+}
+
+/*showcase view*/
+#showcase-view .x-panel-body {
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+
+#showcase-view .thumb {
+	background: #dddddd;
+	padding: 3px;
+}
+
+#showcase-view .thumb img {
+	height: 90px;
+	width: 118px;
+}
+
+#showcase-view .thumb-wrap {
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+}
+
+#showcase-view .thumb-wrap span {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+#showcase-view .x-view-over {
+	border: 1px solid #dddddd;
+	background: #efefef url( js/ext/resources/images/default/grid/row-over.gif ) repeat-x left top;
+	padding: 4px;
+}
+
+#showcase-view .x-view-selected {
+	background: #eff5fb url( images/view/selected.gif ) no-repeat right bottom;
+	border: 1px solid #99bbe8;
+	padding: 4px;
+}
+
+#showcase-view .x-view-selected .thumb {
+	background: transparent;
+}
+
+#showcase-view .loading-indicator {
+	font-size: 11px;
+	background-image: url( 'js/ext/resources/images/default/grid/loading.gif' );
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+	margin: 10px;
+}
+
+.credits-icon {
+	background-image: url( images/silk/photo.gif) !important;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/tools/gwtext-2.0.5/gwtext.jar"/>
+	<classpathentry kind="lib" path="C:/tools/gwtext-2.0.5/gwtextux.jar"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT"/>
+	<classpathentry kind="lib" path="C:/tools/gwt-maps-1.0.3/gwt-maps.jar"/>
+	<classpathentry kind="lib" path="C:/tools/JSON/flexjson.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
