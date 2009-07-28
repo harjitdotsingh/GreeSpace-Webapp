@@ -71,7 +71,7 @@ public class EPADataServlet extends HttpServlet {
 				jsonString = searchAndReturnDatainJSONFormat(longitude, lat,
 						radius, maxresults);
 			} else {
-				
+
 				System.out.println("Start of JSON Call For Web:"
 						+ new Date().toString());
 				jsonString = searchAndReturnDatainJSONFormatForWebApp(
@@ -139,7 +139,7 @@ public class EPADataServlet extends HttpServlet {
 		if (userNameForService == null) {
 			ResourceBundle rb = ResourceBundle
 					.getBundle("com.mycompany.sampleProject.server.geonames");
-			
+
 			if (rb != null) {
 				userNameForService = returnData = rb.getString("userName");
 			}
